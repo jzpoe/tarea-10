@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let nombre = "Jose";
+        let apellido = "Rodriguez";
+        let saludos = "Hola" + " " + "" + nombre + " " + apellido + " ";
+        document.write(saludos);
+        document.write(" , ")
+        document.write("<br>")
+
+        let x = 7;
+        let y = 10;
+
+        document.write("X es igual a Y:  ", + x == y );
+        document.write("<br>")
+        
+        document.write("X es diferente a Y: ", + " ," + x != y );
+        document.write("<br>")
+       
+        document.write("X es mayor a Y: ", + x > y);
+        document.write("<br>")
+       
+        document.write("X es menor o igual a Y: ", + x <= y);
+
+        document.write("<br>")
+
+        let esAdulto = true;
+        let tieneDinero = false;
+        let puedeEntrar = (esAdulto && tieneDinero);
+        let puedeSalir = (esAdulto || tieneDinero);
+
+        document.write("puede entrar a la discoteca: ", puedeEntrar)
+        document.write("<br>")
+
+        document.write("puede salir: ",  puedeSalir);
+        document.write("<br>")
+
+        let a=10;
+        let b=5;
+        let suma = a+b;
+        let resta = a-b;
+        let multiplicacion = a*b;
+        let division = a/b;
+
+        document.write("la suma es: ", suma );
+        document.write("<br>")
+        document.write("la resta es: ", resta );
+        document.write("<br>")
+        document.write("la multiplicacion es: ", multiplicacion );
+        document.write("<br>")
+        document.write("la division es: ", division );
+        document.write("<br>")
+
+        let nombre2 = "juan carlos";
+        let edad = prompt("ingresa su edad: ");
+        let esEstudiante= "true";
+
+        let respuesta = edad >= 18 && esEstudiante;
+
+        document.write("recibe el bono: ", respuesta)
+
+    </script>
+</body>
+</html>
